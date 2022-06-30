@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <marquee direction="right" scrollamount="13">Please fill up the form and let us know your opinions</marquee>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="assam flood.css">
+  </head>
+  <body>
+    <div class="form">
+    <h1 id="title">Flood in Assam</h1>
+    <p id="description"><b>Thank you for taking the time to fill up the form</b></p>
+        <form action="/" id="survey-form">
+            <label for="name" id="name-label"><strong>Enter your name:</strong></label>
+            <input type="text" id="name" name="name" maxlength="100"placeholder="Enter your name" required>
+            <br><br>
+            <label for="email" id="email-label"><strong>Enter your email:</strong></label> 
+            <input type="email" id="email" name="email" placeholder="Enter your email" required alt="HTML5 validation error">
+            <br><br>
+            <label for="number" id="number-label"><strong>Enter your age:</strong></label>
+            <input type="number" id="number" name="age" placeholder="age" min="18" max="90" required alt="HTML5 validation error">
+            <br><br>
+            <label for="dropdown"><strong>Which option describes your current role?</strong></label>
+            <br><br>
+            <select id="dropdown">
+                <option>--select current role--</option>
+                <option>student</option>
+                <option>parent</option>
+                <option>teacher</option>
+            </select>
+            <br><br>
+            <label><b>Do you think the government is doing enough to make the flood situation of our assam better?</b></label>
+            <br><br>
+            <input type="radio" name="group1" value="Yes">
+            <label>Yes</label>
+            <br><br>
+            <input type="radio" name="group1" value="No">
+            <label>No</label>
+            <br><br>
+            <input type="radio" name="group1" value="IDK">
+            <label>I don't know</label>
+            <br><br>
+            <label><strong>Which one do you think the people of assam needs more?</strong></label>
+            <br><br>
+            <input type="checkbox" value="Roadways">
+            <label>Raised roadways to prevent flooded roads</label>
+            <br><br>
+            <input type="checkbox" value="walls">
+            <label>higher flood walls along major rivers</label>
+            <br><br>
+            <input type="checkbox" value="channel">
+            <label>A water overflow channel system</label>
+            <br><br>
+            <input type="checkbox" value="dams">
+            <label>dams or lochs on major rivers</label>
+            <br><br>
+            <input type="checkbox" value="projects">
+            <label>government assistant housing projects to allow for quicker recovery after floods</label>
+            <br><br>
+            <label for="think"><strong>Any comments or suggestions?</strong></label>
+            <br><br>
+            <textarea rows="8" col="50" id="think" class="opinion" required>What do you think?</textarea>
+            <br><br>
+            <input type="button" id="submit" value="Submit" class="submit">
+    </div>   
+    </form>
+  </body>    
+</html>  
