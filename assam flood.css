@@ -1,0 +1,60 @@
+marquee
+{
+  color: black;
+  background-color: white;
+  text-align: center; 
+}
+body
+{
+   background-image: url(https://www.thehindu.com/incoming/q4ipp9/article65550541.ece/alternates/LANDSCAPE_1200/2150_21_6_2022_15_6_40_1_ASSAMFLOOD_21062022_02.JPG);
+   font-family: sans-serif;
+   padding: 20px;
+   font-style: normal;
+}
+#name,#email
+{
+    height: auto; 
+    width: 500px; 
+}
+#age
+{
+    height: auto;
+    width: auto;
+}
+#dropdown
+{
+    height: auto;
+    width: 650px;
+}
+.form
+{
+    background-color: rgb(197, 186, 166);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 800px;
+    opacity: 95%;
+}
+h1{
+    margin-top: 0;
+    color: rgb(200,0,0);
+    text-align: center;
+}
+#description
+{
+    color: rgb(218, 124, 124);
+    text-align: center;
+    font-style: italic ;
+}
+.opinion
+{
+    height: auto;
+    width: 650px;
+}
+input[type="button"]
+{
+    margin: 2rem 0 2rem auto;
+    background-color: rgb(215, 231, 215);
+    width: 20em;  
+    height: 2em;
+}
